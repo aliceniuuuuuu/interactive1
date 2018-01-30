@@ -82,7 +82,7 @@ h3{
 	animation: blink 1s linear infinite;
 }
 
-.blink{	
+div.blink{	
 	text-align: center;
 	line-height: 30px;
 }
@@ -147,12 +147,10 @@ h3{
 	font-family: Futura;
 }
 
-div {
+div#left{
+	{
     width: 300px;
     height: 300px;
-}
-
-#left{
 	background: #FF4500;
     position: relative;
     -webkit-animation: paragraphL infinite; 
@@ -171,7 +169,7 @@ div {
     to {left: 1000px;}
 }
 
-#right{
+div#right{
 	width: 300px;
     height: 500px;
 	background: #FF4500;
