@@ -2,23 +2,40 @@
 	margin:0px;
 	padding:0px;
 }
+
+@font-face{
+	font-family: 'Kranky', cursive;
+	font-family: 'Miltonian', cursive;
+	font-family: 'Ribeye Marrow', cursive;
+}
 body{
-	color:lightblue;
+	color:white;
+	background-color: orange;
+	font-family: 'Ribeye Marrow';
 }
 
 h1{
-	font-family: Avenir;
 	font-size: 70px;
-	color:white;
-	background-color: orange;
 	margin-top: 100px;
 }
-p{
-	font-family: 
+
+#projects, #exercises{
+	padding-top: 30px;
+	font-size: 20px;
 }
 
-.desc{
-	margin-left: 150px;
+li{
+	font-size: 16px;
+	
 }
 
-div
+
+div.P1{
+	position:absolute;
+	left:450px;
+}
+
+div.P2{
+	position:absolute;
+	left:670px;
+}
