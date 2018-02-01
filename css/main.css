@@ -1,6 +1,4 @@
 *{
-	margin:0px;
-	padding:0px;
 }
 
 @font-face{
@@ -20,6 +18,15 @@ body{
 
 h1{
 	font-size: 70px;
-
-	
 }
+
+#grid_1 { 
+    display: grid; 
+    grid-template-rows: repeat(2, 100px); 
+    grid-gap: 10px;}
+
+
+.desc{
+    position: relative;
+
+    }
