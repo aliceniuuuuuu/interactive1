@@ -95,6 +95,24 @@ span{
 	margin-left: : 700px
 }
 
+#noisy{
+	margin-top: 400px;
+	margin-left: 100px;
+}
+
+#runningtext{
+	width: 500px;
+	margin-top: 800px;
+	margin-left: 100px;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Squada One';
+	color: darkorange;
+
+}
 
 
 /*version 3: creepy*/
@@ -180,7 +198,7 @@ div.blink{
  	font-size: 70px;
  	text-align: right;
 }
- span{
+span{
  	color: red;
  }
 

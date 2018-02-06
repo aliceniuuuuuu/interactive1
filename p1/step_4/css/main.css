@@ -1,0 +1,70 @@
+*{
+	margin:0px;
+}
+@font-face{
+	font-family: 'Supermercado One', cursive;
+	font-family: 'Press Start 2P', cursive;
+	font-family: 'Squada One', cursive;
+	font-family: 'Varela', cursive;
+	font-family: 'Special Elite', cursive;
+	font-family: 'Butcherman', cursive;
+	font-family: 'Eater', cursive;
+}
+
+
+.creepy{
+	background-color: black;
+	margin:50px;
+}
+
+h4{
+	font-family: 'Special Elite';
+	font-size: 30px;
+}
+.p3{
+	font-family: 'Special Elite';
+	font-size: 50px;
+	color: white;
+	animation: blink 1s linear infinite;
+}
+
+div.blink{	
+	text-align: center;
+	line-height: 30px;
+}
+
+span{
+	color: rgba(255,255,255,.5);
+}
+@keyframes blink{
+	0%{opacity: 0;}
+	30%{opacity: .5;}
+	100%{opacity: 1;}
+	0%{opacity: .5;}
+	100%{opacity: 1;}
+}
+
+a:link{
+  text-decoration: none;
+  color: darkred;
+}
+
+a:visited{
+  text-decoration: none;
+  color: darkred;
+
+}
+
+a:active{
+  text-decoration: none;
+  color: darkred;
+
+}
+
+
+
+
+
+
+
+
