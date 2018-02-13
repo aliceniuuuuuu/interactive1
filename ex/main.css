@@ -1,0 +1,14 @@
+/* v1 */
+.card {
+    width: 400px;
+    height: 1000px;
+    background: url("R0068844.JPG") no-repeat;
+    display: inline-block;
+    }
+.card:hover {
+    background: url("R0068845.JPG") no-repeat;
+    }
+
+    .body{
+		margin-left: 200px;
+	}
