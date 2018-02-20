@@ -1,0 +1,57 @@
+html, body {
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+@font-family{
+	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.slide {
+	width:100vw;
+	height:100vh;
+	display: flex;
+	overflow: hidden;
+}
+
+img {
+	align-self: center;
+    justify-content: center;
+    text-align: center;	
+    margin: auto;
+}
+
+
+.text {
+	align-self: center;
+	font-family: 'Exo 2';
+    justify-content: center;
+    text-align: center;
+    width:100vw;
+    padding: 100px;	
+}
+
+h1{
+	color: orangered;
+}
+
+a{
+	text-decoration: none;
+	color:orangered;
+	font-size: 30px;
+}
+a:active{
+	text-decoration: none;
+	color:white;
+
+}
+a:hover{
+	text-decoration: none;
+	color:white;
+	background-color: orangered;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
