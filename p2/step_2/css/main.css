@@ -26,14 +26,6 @@ h1{
 	position: relative;
 }
 
-#red{background-color: red;}
-#orange{background-color: orange;}
-#yellow{background-color: gold;}
-#green{background-color: green;}
-#cyan{background-color: darkcyan;}
-#blue{background-color: darkblue;}
-#grey{background-color: lightslategrey;}
-#black{background-color: black;}
 
 .red img{
 	opacity: 0;

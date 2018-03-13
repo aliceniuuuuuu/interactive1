@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+}
+
+#button{
+	height: 55px;
+	position: absolute;
+	top: 60vh;
+	right: 10vw;
+	
+}
+
+img{
+	height: 55px;
+	opacity: 0;
+}
+
+.show img{
+	opacity: 1;
+}
+
+.pointer {cursor: pointer;}
