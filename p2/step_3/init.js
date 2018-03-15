@@ -35,7 +35,7 @@ var n = 1;
 		var randPosY = Math.floor((Math.random()*winHeight));
 
 		// apply the random position
-		$(this).css('left', (randPosX)+'px');
+		$(this).css('right', (randPosX)+'px');
 		$(this).css('top', (randPosY)+'px');
 	});
 

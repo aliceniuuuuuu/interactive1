@@ -13,7 +13,36 @@
 	border-radius: 5px;
 	position: absolute;
 	top: 60vh;
-	right: 10vw;
+	right: 15vw;
+}
+
+#cart{
+	position: absolute;
+	top: 10vh;
+	right: 18vw;
+	opacity: 1;
+	height: 40px;
+	cursor: pointer;
+
+}
+
+#bag{
+	height: 30px;
+	width: 30px;
+	border: 3.5px solid black;
+	border-radius: 5px;
+	background-color: white;
+	position: absolute;
+	top: 10px;
+}
+
+#handle{
+	height: 20px;
+	width: 20px;
+	border: 3.5px solid black;
+	border-radius: 100%;
+	position: absolute;
+	left: 5px;
 }
 
 h3{
@@ -31,6 +60,32 @@ h3{
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select:none; /* Non-prefixed version, currently */
     cursor: pointer;
+}
+
+h4{
+	font-family: 'Open Sans';
+	align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    background-color: black;
+    border-radius: 100%;
+    color: white;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select:none; /* Non-prefixed version, currently */
+}
+
+#number{
+	height: 18px;
+	width: 18px;
+	align-self: center;
+    justify-content: center;
+    position: absolute;
+    padding: 5.5px;
 }
 
 img{
