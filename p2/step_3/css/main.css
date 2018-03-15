@@ -37,7 +37,7 @@ body{
 #bag{
 	height: 30px;
 	width: 30px;
-	border: 3.5px solid black;
+	border: 3px solid black;
 	border-radius: 5px;
 	background-color: white;
 	position: absolute;
@@ -45,13 +45,13 @@ body{
 }
 
 #bag:hover{
-	border: 3.5px solid darkcyan;
+	border: 3px solid darkcyan;
 }
 
 #handle{
 	height: 20px;
 	width: 20px;
-	border: 3.5px solid black;
+	border: 3px solid black;
 	border-radius: 100%;
 	position: absolute;
 	left: 5px;
