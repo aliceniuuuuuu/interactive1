@@ -11,6 +11,17 @@ $(document).ready(function(){
 //     $(this).css('cursor','auto');
 // });
 
+// $('#cart').hover(function(){
+// 	$('#bag').css('border','3.5px solid darkcyan');
+// },function(){
+// 	$('#handle').css('border','3.5px solid darkcyan');
+// })
+
+$("#cart").click(function(){
+        $("#panel").slideDown("slow");
+    });
+
+
 var n = 1;
 
     $('#button').click(function() {

@@ -6,14 +6,22 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+body{
+	font-family: 'Open Sans';
+}
+
 #button{
 	height: 45px;
 	width: 250px;
 	background-color: darkcyan;
 	border-radius: 5px;
 	position: absolute;
-	top: 60vh;
+	top: 70vh;
 	right: 15vw;
+}
+
+#button:hover{
+	background-color: lightseagreen;
 }
 
 #cart{
@@ -23,8 +31,8 @@
 	opacity: 1;
 	height: 40px;
 	cursor: pointer;
-
 }
+
 
 #bag{
 	height: 30px;
@@ -36,6 +44,10 @@
 	top: 10px;
 }
 
+#bag:hover{
+	border: 3.5px solid darkcyan;
+}
+
 #handle{
 	height: 20px;
 	width: 20px;
@@ -45,8 +57,22 @@
 	left: 5px;
 }
 
+#panel{
+	position: absolute;
+	top: 18vh;
+	right: 15vw;
+	width: 200px;
+	border: 1px solid darkcyan;
+	padding: 5px;
+	display: none;
+	border-radius: 5px;
+}
+
+p{
+	font-size: 12px;
+}
+
 h3{
-	font-family: 'Open Sans';
 	color: white;
 	align-self: center;
     justify-content: center;
@@ -79,6 +105,9 @@ h4{
     user-select:none; /* Non-prefixed version, currently */
 }
 
+h5{
+
+}
 #number{
 	height: 18px;
 	width: 18px;
@@ -86,6 +115,10 @@ h4{
     justify-content: center;
     position: absolute;
     padding: 5.5px;
+}
+
+h4:hover{
+	background-color: darkcyan;
 }
 
 img{
