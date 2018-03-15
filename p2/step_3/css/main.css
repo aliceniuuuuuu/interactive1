@@ -2,21 +2,46 @@
 	margin: 0;
 }
 
+@font-face{
+	font-family: 'Open Sans', sans-serif;
+}
+
 #button{
-	height: 55px;
+	height: 45px;
+	width: 250px;
+	background-color: darkcyan;
+	border-radius: 5px;
 	position: absolute;
 	top: 60vh;
 	right: 10vw;
-	
+}
+
+h3{
+	font-family: 'Open Sans';
+	color: white;
+	align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select:none; /* Non-prefixed version, currently */
+    cursor: pointer;
 }
 
 img{
 	height: 55px;
 	opacity: 0;
+	position: absolute;
+	pointer-events: none;
 }
 
-.show img{
+img.show{
 	opacity: 1;
 }
 
-.pointer {cursor: pointer;}
+
