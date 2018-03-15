@@ -114,7 +114,8 @@ h5{
 	align-self: center;
     justify-content: center;
     position: absolute;
-    padding: 5.5px;
+    padding-top: 5.5px;
+    padding-left: 6px;
 }
 
 h4:hover{
