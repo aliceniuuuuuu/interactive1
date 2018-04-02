@@ -1,0 +1,112 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	background-color: rgb(70,130,180);
+	color: white;
+}
+
+@font-face{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Satisfy', cursive;
+}
+
+#desktop{
+	opacity: 1;
+	font-family: 'Gloria Hallelujah';
+    position: absolute;
+    margin: 10vh 20vw;
+}
+
+#poem{
+	position: relative;
+}
+
+#circle{
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	background-color: white;
+	position: absolute;
+	top: 5vh;
+	left: 40vw;
+	}
+
+#tablet, #mobile, #print {
+	opacity: 0;
+}
+
+a{	text-decoration: none;
+	color:white;}
+
+a:active{
+	text-decoration: none;
+	color:orangered;
+
+}
+a:hover{
+	text-decoration: none;
+	color:orangered;
+	background-color: white;
+	padding: 0px 5px;
+	border-radius: 5px;
+}
+
+
+
+/* iPad */
+@media (min-width: 668px) and (max-width: 1024px) { 
+	body {
+		background: grey;
+		font-family: 'Gloria Hallelujah';
+	}
+
+	#tablet{
+		opacity: 1;
+		position: absolute;
+	}
+
+	#desktop, #mobile, #print {
+		opacity: 0;
+	}
+
+}
+
+/* iPhone 6 */
+@media (min-width: 375px) and (max-width: 667px) { 
+	
+	body {
+		background: white;
+	}
+
+	#mobile{
+		opacity: 1;
+	}
+
+	#desktop, #tablet, #print {
+		opacity: 0;
+	}
+}
+
+/* print */
+@media print {
+	
+	body {
+		background: rgb(135,206,255);
+	}
+
+	#print{
+		opacity: 1;
+	}
+
+
+	
+
+	#desktop, #tablet, #mobile {
+		opacity: 0;
+	}
+
+	@page {
+       margin: 3cm;
+     }
+
+}
