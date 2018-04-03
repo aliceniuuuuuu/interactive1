@@ -3,22 +3,25 @@
 body {
 	background-color: rgb(70,130,180);
 	color: white;
+	font-family: 'Coming Soon';
+	font-size: 150%;
 }
 
 @font-face{
 	font-family: 'Gloria Hallelujah', cursive;
 	font-family: 'Satisfy', cursive;
+	font-family: 'Marvel', sans-serif;
+	font-family: 'Coming Soon', cursive;
 }
 
 #desktop{
 	opacity: 1;
-	font-family: 'Gloria Hallelujah';
-    position: absolute;
-    margin: 10vh 20vw;
 }
 
 #poem{
 	position: relative;
+	top: 15vh;
+	left: 15vw;
 }
 
 #circle{
@@ -27,17 +30,14 @@ body {
 	border-radius: 100%;
 	background-color: white;
 	position: absolute;
-	top: 5vh;
-	left: 40vw;
+	top: 10vh;
+	left: 60vw;
 	}
 
-#tablet, #mobile, #print {
-	opacity: 0;
+a{
+	text-decoration: none;
+	color:white;
 }
-
-a{	text-decoration: none;
-	color:white;}
-
 a:active{
 	text-decoration: none;
 	color:orangered;
@@ -51,22 +51,38 @@ a:hover{
 	border-radius: 5px;
 }
 
+#tablet, #mobile, #print {
+	opacity: 0;
+}
+
+
+
+h1,p{padding-bottom: 5vh;}
+
+#link{position: relative;
+	top: 10vw;
+	left: 15vw;}
 
 
 /* iPad */
 @media (min-width: 668px) and (max-width: 1024px) { 
 	body {
-		background: grey;
-		font-family: 'Gloria Hallelujah';
+		background: rgb(139,0,0);
 	}
 
 	#tablet{
 		opacity: 1;
 		position: absolute;
+		top: 10vh;
+		left: 10vw;
 	}
 
 	#desktop, #mobile, #print {
 		opacity: 0;
+	}
+
+	h1{
+		position: 
 	}
 
 }
@@ -75,11 +91,14 @@ a:hover{
 @media (min-width: 375px) and (max-width: 667px) { 
 	
 	body {
-		background: white;
+		background: rgb(0,191,255);
 	}
 
 	#mobile{
 		opacity: 1;
+		position: absolute;
+		top: 10vh;
+		left: 10vw;
 	}
 
 	#desktop, #tablet, #print {
@@ -91,14 +110,16 @@ a:hover{
 @media print {
 	
 	body {
-		background: rgb(135,206,255);
+		background: blue;
 	}
 
 	#print{
 		opacity: 1;
+		color: rgb(0,191,255);
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
-
-
 	
 
 	#desktop, #tablet, #mobile {
@@ -108,5 +129,15 @@ a:hover{
 	@page {
        margin: 3cm;
      }
+
+    #circle-2{
+    	width: 300px;
+		height: 300px;
+		border-radius: 100%;
+		border: dashed black;
+		align-self: center;
+	    text-align: center;	
+	    padding: 100px;
+    }
 
 }
