@@ -6,24 +6,36 @@
 	<script src="assets/js/script.js"></script>
   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Dosis|Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Oswald|Quattrocento" rel="stylesheet">
+  <link rel="icon" href="logo.png" type="image/icon" />
 </head>
 
 <body>
   <div id="desktop">
 <div id="intro">
-  <div id="text">Select word(s) that better describe you and create your unique vinyl record. </div>
+  <div id="text">
+    Select word(s) that better describe you first
+  <br />
+    and turn on the record player
+   </div>
 </div>
 
-  <main>
+    <main>
   <div class="outside"></div>
   <div id="inside-1"></div>
   <div id="inside-2"></div>
 </main>
 
   <div id="handle"><img src="actuator.png" /></div>
-  <div id="power">start</div>
-    
+  <div class="power">
+    <br />off
+    <br />
+    <br />
+    on
+    <div class="button"></div>
+  </div>
+
+  <div id="words"></div>
 
   <div class="tags">
     <div class="personality word-1">
@@ -66,7 +78,8 @@
 </div>
 
 <div class="break" id="print">
-  <h1>MUSIC. MUSIC?</h1>
+  <div class="info">
+    <h1>MUSIC. MUSIC?</h1>
   <p>“The algorithms employed by major streaming services—particularly Spotify—are changing music. They’re making it less interesting, less diverse, and more corporate.” journalist Liz Pelly argued the December issue of The Baffler. 
   </p>
   <p>Spotify makes music so easy to be categorized in different mood themes that users stop to critique it and more likely to listen it as a background noise. The music recommendation algorithm of major streaming services seems to be so convenient and correct that almost every user relies on it for listening “new” music. However, do users really like it, or are they convinced by the algorithms that they love the music recommended for them? 
@@ -74,11 +87,11 @@
   <p>The recommendation algorithm subtracts the context and diversity of music. The algorithm is based on the history of listened music of users and how many times users have listened for each music. Does that mean the most frequently listened music of a user is his or her the favorite music? Not necessary. The algorithm only filters music that matches the data that the algorithm has collected. An algorithm of providing recommendation of music is not capable of identify users’ unique personality. 
   </p>
   <p>Trying to find a new music without using algorithms maybe from today!
-  </p>
+  </p></div>
 </div>
-
+<!-- 
 <div class="break"><img src="printout-1.png">
-  </div>
+  </div> -->
 
 </body>
 </html>
