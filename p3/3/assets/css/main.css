@@ -448,6 +448,12 @@ main {
 	text-align: center;
 	align-self: center;
 	border: 2px solid black;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select:none;
 }
 
 .button{
@@ -458,6 +464,7 @@ main {
 	position: absolute;
 	top: 1.5vh;
 	z-index: -1;
+	border-radius: 2px;
 }
 
 img{
@@ -470,6 +477,12 @@ img{
 	left: 75vw;
 	transition: all 300ms;
 	z-index: 200;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select:none;
 }
 
 #handle.rotated{
@@ -508,17 +521,18 @@ img{
 		font-family: 'Dosis';
 		padding-bottom: .5in;}
 
-	img{width: 60%;height: auto;}
+	img{width: 80%;height: auto;}
 
 	#words{
 		position: absolute;
 		top: 0.5in;
-		left: 3in;
+		left: 2in;
 		display: block;
 		z-index: 200;
 	}
 	.info{
 		margin: 1in 2in;
+		color: black;
 	}
 
 	#handle, #intro{display: none;}
@@ -527,7 +541,7 @@ img{
 
 
 	@page{
-		/*margin: 2in;*/
+		margin: 0.75in;
 	}
 
 

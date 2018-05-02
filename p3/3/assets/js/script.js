@@ -6,7 +6,7 @@ $(document).ready(function(){
 	function printMusic () {
 	    	window.print()}
 	$('.power').click(function(){
-		setTimeout(printMusic, 1500);
+		setTimeout(printMusic, 2000);
 		$('.button').animate({top:"10vh"});	 
 		$('#handle').addClass('rotated');   
 	});
