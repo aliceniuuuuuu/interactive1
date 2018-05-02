@@ -512,7 +512,7 @@ img{
 
 	p{
 		/*margin: 0 1.5in;*/
-		font-family: 'Quattrocento';
+		/*font-family: 'Quattrocento';*/
 		padding-bottom: .125in;
 
 	}
@@ -537,7 +537,7 @@ img{
 
 	#handle, #intro{display: none;}
 
-	.tags,.power{display: none;}
+	.tags,.power,.home{display: none;}
 
 
 	@page{
@@ -546,4 +546,33 @@ img{
 
 
 }
+
+.home{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 5vh;
+	right: 5vw;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select:none;
+    cursor: pointer;
+}
+
+.icon{
+	width: auto;
+	height: auto;
+	position: absolute;
+}
+
+.colored:hover{opacity: 0;}
+
+
+
+
+
+
 
